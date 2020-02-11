@@ -1,67 +1,27 @@
-# Deep Learning with PyTorch [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atcold/pytorch-Deep-Learning-Minicourse/master)
-This notebook repository now has a [companion website](https://atcold.github.io/pytorch-Deep-Learning-Minicourse/), where all the course mateiral can be found in video and textual format.
+# IVADO/Mila's Deep Learning school, 4th edition - September 9-13 2019, Montreal
+[![image](https://user-images.githubusercontent.com/18450628/63861998-e911e280-c979-11e9-83f6-49c40e904a22.png)](https://ivado.ca/en/trainings/schools/deep-learning-school-4th-and-5th-edition/)
 
-# Getting started
-To be able to follow the exercises, you are going to need a laptop with Miniconda (a minimal version of Anaconda) and several Python packages installed.
-The following instruction would work as is for Mac or Ubuntu linux users, Windows users would need to install and work in the Gitbash terminal.
+## Welcome!
 
+Welcome to the IVADO/Mila Deep Learning school! In this repo, you will find all the material needed for completing the tutorials of the school as well as some supplementary material.
 
-## Download and install Miniconda
-Please go to the [Anaconda website](https://conda.io/miniconda.html).
-Download and install *the latest* Miniconda version for *Python* 3.7 for your operating system.
+## Course Structure
 
-```bash
-wget <http:// link to miniconda>
-sh <miniconda*.sh>
-```
+All lectures are given in-person. Each lecture is followed by a tutorial. These tutorials are complementary to the lectures and apply concepts that have been covered throughout the school.
 
-After that, type:
+You will find in this github repo all tutorials in the [tutorials](https://github.com/mila-iqia/ivado-mila-dl-school-2019/tree/master/tutorials) folder. Each tutorial will be presented in two formats:
 
-```bash
-conda --help
-```
+* one `TODO` format, in which templates are provided but code is left out for you to complete;
+* one `Solutions` format where the suggested solutions to the tutorials are presented;
 
-and read the manual.
+## Practical Information
 
+We will be presenting the tutorials in the format of [Jupyter notebooks](http://jupyter.org/). In order to facilitate usage/setup of the notebooks, we will be using [Google Colab](https://colab.research.google.com/github/mila-iqia/ivado-mila-dl-school-2019/) which gives users access to an already setup python environment with all the necessary dependencies. It also gives access to free GPUs for cloud computation. Using Colab will require an internet connection. You can however use the notebooks locally if you so prefer but additional setup will be necessary.
 
-## Check-out the git repository with the exercise
-Once Miniconda is ready, checkout the course repository and and proceed with setting up the environment:
+## [Tutorials on Colab](https://colab.research.google.com/github/mila-iqia/ivado-mila-dl-school-2019/)
 
-```bash
-git clone https://github.com/Atcold/pytorch-Deep-Learning-Minicourse
-```
+## Additional information
 
+For more information about the deep learning school, visit the [official website.](https://ivado.ca/en/trainings/schools/deep-learning-school-4th-and-5th-edition/)
 
-## Create isolated Miniconda environment
-Change directory (`cd`) into the course folder, then type:
-
-```bash
-# cd pytorch-Deep-Learning-Minicourse
-conda env create -f environment.yml
-source activate dl-minicourse
-```
-
-## Start Jupyter notebook or JupyterLab
-Start from terminal as usual:
-
-```bash
-jupyter lab
-```
-
-Or, for the classic interface:
-
-```bash
-jupyter notebook
-```
-
-## Notebooks visualisation
-*Jupyter Notebooks* are used throughout these lectures for interactive data exploration and visualisation.
-
-We use dark styles for both *GitHub* and *Jupyter Notebook*.
-You should try to do the same, or they will look ugly.
-JupyterLab has a built-in selectable dark theme, so you only need to install something if you want to use the classic notebook interface.
-To see the content appropriately in the classic interface install the following:
-
- - [*Jupyter Notebook* dark theme](https://userstyles.org/styles/153443/jupyter-notebook-dark);
- - [*GitHub* dark theme](https://userstyles.org/styles/37035/github-dark) and comment out the `invert #fff to #181818` code block.
-
+For more information about Mila, visit the [official website.](https://mila.quebec/)
